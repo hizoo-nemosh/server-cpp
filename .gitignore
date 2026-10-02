@@ -1,0 +1,71 @@
+# Скомпилированные объектные файлы
+*.slo
+*.lo
+*.o
+*.obj
+
+# Предварительно скомпилированные заголовки
+*.gch
+*.pch
+
+# Скомпилированные библиотеки
+*.lib
+*.a
+*.la
+*.lo
+*.loT
+
+# Динамические библиотеки
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+
+# Отладочные файлы и логи
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.log
+
+# Файлы покрытия кода и профилирования
+*.gcno
+*.gcda
+*.gcov
+
+# Папки сборки
+build/
+bin/
+out/
+cmake-build-*/
+Target/
+
+# Артефакты CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+CMakeUserPresets.json
+
+# VSCodium / VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini 
